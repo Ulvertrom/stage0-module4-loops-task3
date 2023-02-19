@@ -17,6 +17,6 @@ public class DigitsSum {
             number = number / 10;
         }
 
-        System.out.println(sum);
+        System.out.println(sum >= 0? sum: - sum);
     }
 }
